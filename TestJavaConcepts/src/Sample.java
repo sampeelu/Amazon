@@ -10,6 +10,11 @@ public class Sample {
 			    // setter method
 				public void setNumber(int num) {
 			        this.account_number = num;
+			        
+			        
+			        
+			        
+			        
 			    }
 			}
 
