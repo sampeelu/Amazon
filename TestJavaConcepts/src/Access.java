@@ -7,7 +7,6 @@ public class Access {
 	
 	
 	int i;
-	
 	for(i=0;i<5;i++) {
 	
 		for(int j=0;j<i;j++) {
@@ -35,7 +34,7 @@ public class Access {
 	
 	
 	
-	System.out.println("updated");
+	
 	
 	
 

@@ -18,6 +18,7 @@ import org.testng.annotations.BeforeSuite;
 import com.amazon.objectRepositorylib.Home;
 import com.amazon.objectRepositorylib.LoginPage;
 import com.gargoylesoftware.htmlunit.Page;
+import com.relevantcodes.extentreports.ExtentReports;
 /**
  * Here launch browser, login and logout
  * @author sambhaw
@@ -29,8 +30,16 @@ public class BaseClass {
 	public BaseClass() {
 		
 	}
+	public ExtentReports extreport;
+	
 	@BeforeSuite
 	public void launchBrowser() throws IOException {
+		
+		
+		
+		
+		
+		
 		try {
 			System.out.println("launch browser");
 			System.out.println(file.getPropertyobj("browser"));
